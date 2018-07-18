@@ -64,3 +64,37 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header {
+	margin: 30px 40px;
+}
+header nav {
+	display: inline-block;
+}
+
+header img {
+	float: right;
+}
+
+.hero {
+	margin: 50px 30px 50px 50px;
+}
+
+.hero div {
+	display: inline-block;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 80px;
+	font-weight: bold;
+}
+
+.hero button {
+
+}
+.hero img {
+	float: right;
+	
+}
+
