@@ -64,43 +64,44 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
-body {
-	margin: 30px;
+.container {
+	width: 880px;
+	margin: 0 auto;
 }
 
 header {
 	width: 100%;
-	position: relative;
+	margin-top: 20px;
 }
 
 header nav {
 	display: inline-block;
-	/* margin-left: 40px; */
+	height: 30px;
 }
 
 header nav a {
 	font-size: 16px;
 	margin: 0 30px;
-	line-height: 2;
 	text-decoration: none;
 }
 
 header img {
-	position: absolute;
-	right: 0;
-	top: 0;
+position: relative;
+top: 10px;
+right: 0px;
 }
 
 .hero {
-	margin: 70px 0;
-	position: relative;
+	margin-bottom: 125px;
 }
 
 .hero div {
-	margin: 50px 0 0 115px;
 	display: inline-block;
 	text-align: center;
+	position: relative;
+	top: 10px;
+	left: 100px;
+	margin-left: 20px;
 }
 
 .hero h1 {
@@ -108,7 +109,20 @@ header img {
 }
 
 .hero img {
-	position: absolute;
-	top: 0;
-	right: 0;
+	display: inline-block;
+	position: relative;
+	left: 200px;
+	top: 60px;
+	margin-right: 10px;
+	
+}
+
+button {
+	height: 35px;
+	width: 180px;
+	font-size: 16px;
+	position: relative;
+	bottom: 5px;
+	background-color: white;
+	border: solid black 1px;
 }
