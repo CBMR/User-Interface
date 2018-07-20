@@ -83,6 +83,7 @@ header nav a {
 	font-size: 16px;
 	margin: 0 30px;
 	text-decoration: none;
+	color: grey;
 }
 
 header img {
@@ -127,7 +128,7 @@ button {
 	border: solid black 1px;
 }
 
-article div {
+article .section-one div {
 	display: inline-block;
 	width: 430px;
 }
@@ -144,4 +145,43 @@ article p {
 
 .about {
 	margin-left: 10px;
+}
+.image {
+	display: block;
+	/* margin-bottom: 30px; */
+}
+
+article .section-two div {
+	display: inline-block;
+	width: 240px;
+}
+
+.section-two {
+	margin: 40px auto;
+}
+
+.product {
+	margin-left: 75px;
+}
+
+.vision {
+	margin-left: 75px;
+}
+
+footer {
+	margin-top: 30px;
+	font-size: 16px;
+}
+
+footer address {
+	margin-bottom: 20px;
+}
+
+footer a {
+	display: block;
+}
+
+footer .copyright {
+	margin: 50px 0px;
+	text-align: center;
 }
