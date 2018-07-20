@@ -126,3 +126,22 @@ button {
 	background-color: white;
 	border: solid black 1px;
 }
+
+article div {
+	display: inline-block;
+	width: 430px;
+}
+article h3 {
+	font-size: 16px;
+}
+article p {
+	font-size: 16px;
+}
+
+.section-one {
+	margin: 30px auto;
+}
+
+.about {
+	margin-left: 10px;
+}
