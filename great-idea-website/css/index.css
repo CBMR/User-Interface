@@ -70,8 +70,11 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	width: 100%;
-	margin-top: 20px;
+	/* width: 100%; */
+	background-color: lightgray;
+	position: fixed;
+	top: 0;
+	z-index: 1;
 }
 
 header nav {
@@ -85,6 +88,10 @@ header nav a {
 	text-decoration: none;
 	color: grey;
 }
+header nav a:hover {
+	color:black;
+	text-decoration: underline;
+}
 
 header img {
 position: relative;
@@ -94,6 +101,7 @@ right: 0px;
 
 .hero {
 	margin-bottom: 125px;
+	margin-top: 50px;
 }
 
 .hero div {
@@ -112,7 +120,7 @@ right: 0px;
 .hero img {
 	display: inline-block;
 	position: relative;
-	left: 200px;
+	left: 175px;
 	top: 60px;
 	margin-right: 10px;
 	
@@ -128,11 +136,18 @@ button {
 	border: solid black 1px;
 }
 
+button:hover {
+	color: white;
+	background-color: lightgray;
+	cursor: pointer; 
+}
+
 article .section-one div {
 	display: inline-block;
 	width: 430px;
 }
 article h3 {
+	font-family: 'Coda Caption', sans-serif;
 	font-size: 16px;
 }
 article p {
@@ -171,6 +186,10 @@ article .section-two div {
 footer {
 	margin-top: 30px;
 	font-size: 16px;
+}
+
+footer h2 {
+	font-family: 'Coda Caption', sans-serif;
 }
 
 footer address {
